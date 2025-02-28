@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.build_model import MatMul
+from tools.build_model import MatMul
 from .quant_modules import QuantConv2d, QuantLinear, QuantMatMul
 from copy import deepcopy
 

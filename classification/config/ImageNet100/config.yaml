@@ -1,0 +1,11 @@
+path:
+  data_path: '../data/InageNet100/'
+  result_path: results/VIT_cifar10/
+  config_path: config/config.yaml
+
+general:
+  num_classes: 100
+
+vit_learning:
+  train_batch_size: 64
+  test_batch_size: 256
